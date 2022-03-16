@@ -1,0 +1,146 @@
+* {
+ margin: 0xp 0xp;
+ padding: 0xp;
+ font-family: Centuray Gothic;
+ font-size: 1,2em;
+}
+
+
+
+h1 {
+	font-style: italic;
+}
+
+ header{ 
+     color: #000000;
+     text-align: center;
+	 font-style: italic;
+	 font-size: 200%;
+ }
+body:before {
+     content: "";
+     display: block;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     left: 0;
+     top: 0;
+     z-index: -10;
+     background-image: url(image/ict1.jpg);
+
+}
+ 
+nav a { 
+     border:3px solid black;
+     width:150px;
+     padding:25px 5px 0px 5px;
+     height: 45px;
+     overflow: hidden;
+     display:inline-block;
+     text-decoration: none;
+     color: black;
+     margin: 2px 2px 0px 50px;
+}
+ 
+aside { 
+     float: left;
+	 background-color: #6375A8;
+	 width: 25%;
+	 height: 916px;
+	 text-align: center;
+	 font-size: 12px;
+	 color: black;
+	 border: 5px solid black; 
+	 font-size: 1.5em;
+	 overflow: scroll;
+ }
+
+footer { 
+     float: bottom;
+     width: 100%;
+     background-color: #D9D9DB;
+     height:40px;
+     margin: 0px 0px 0px 0px;
+     clear: both;
+	 font-style: italic;
+}
+
+a{
+	text-decoration: none;
+}
+  
+a, a:active, a:visited, a:hover{
+	 background-color: #BBC8ED;
+ }
+ 
+ a:hover {
+	 background-color:#white;
+	 color:#00cccc;
+	 opacity: 0.4;
+ }
+
+#box4{ 
+     background-color:  #10172B;
+     height: 296px;
+     border: 4px solid black;
+     font-size: 1em;
+	 overflow: scroll;
+}
+
+#box2{ 
+    background-color:#36456D;
+    height:296px;
+    border: 4px solid black;
+    font-size: 1.5em;
+	color: black;
+}
+
+#box2 img {
+	float: right;
+}
+
+#box3{ 
+
+     background-color: #222C49;
+     height:296px;
+     border: 4px solid black;
+     font-size: 1.5em;
+	 overflow: scroll;
+}
+#box3 img {
+	float: right;
+}
+#box5{ 
+    background-color: #7995F2;
+    height:916px;
+    border: 4px solid black;
+    font-size: 1.5em;
+	color: black;
+}	
+#box5 img {
+	float: right;
+}
+#box6{ 
+    background-color:  #7995F2;
+    height:916px;
+    border: 4px solid black;
+    font-size: 1.5em;
+	color: black;
+}	
+#box7{ 
+    background-color: #7995F2;
+    height:916px;
+    border: 4px solid black;
+    font-size: 1.5em;
+	color: black;
+}	
+#box8{ 
+    background-color: #7995F2;
+    height:916px;
+    border: 4px solid black;
+    font-size: 1.5em;
+	color: black;
+}		
+
+
+ 
